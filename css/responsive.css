@@ -1,0 +1,104 @@
+@media(max-width:1000px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:58px;
+}
+
+.hero p{
+    margin:auto;
+    margin-top:20px;
+}
+
+.hero-buttons{
+    justify-content:center;
+}
+
+.code-card{
+    width:100%;
+}
+
+.nav-links{
+    display:none;
+}
+
+.menu-toggle{
+    display:block;
+}
+
+.nav-links.active{
+    display:flex !important;
+    flex-direction:column;
+    position:absolute;
+    top:80px;
+    left:0;
+    width:100%;
+    background:#05051a;
+    padding:20px;
+    gap:20px;
+    text-align:center;
+    z-index:9999;
+}
+
+.about-container{
+    flex-direction:column;
+    text-align:center;
+}
+
+.about-image{
+    width:100%;
+    max-width:350px;
+    margin:auto;
+}
+
+.about-stats{
+    flex-direction:column;
+}
+
+.project-container{
+    grid-template-columns:1fr;
+}
+
+}
+
+@media(max-width:768px){
+
+.tech-grid{
+    grid-template-columns:1fr;
+}
+
+.tech-stack h2{
+    font-size:42px;
+}
+
+.tech-card{
+    font-size:22px;
+    padding:30px;
+}
+
+}
+
+@media(max-width:600px){
+
+.hero h1{
+    font-size:42px;
+}
+
+h2{
+    font-size:34px;
+}
+
+.btn-primary,
+.btn-secondary{
+    width:100%;
+}
+
+.hero-buttons{
+    flex-direction:column;
+}
+
+}
